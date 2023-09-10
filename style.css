@@ -1,0 +1,71 @@
+/* style.css */
+
+/* Reset some default browser styles */
+body,
+h1,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a background color for the entire page */
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+/* Style the profile container */
+.profile {
+  background-color: #fff;
+  max-width: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Style the profile name */
+h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+/* Style the profile image */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin: 10px 0;
+}
+
+/* Style the info paragraphs */
+.info p {
+  font-size: 16px;
+  color: #666;
+  margin: 10px 0;
+}
+
+/* Style the track */
+.info p[data-testid="myTrack"] {
+  font-weight: bold;
+  color: #007bff;
+}
+
+/*style the link */
+a[data-testid="myLink"] {
+  display: block;
+  text-decoration: none;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+a[data-testid="myLink"]:hover {
+  background-color: #0056b3;
+}
